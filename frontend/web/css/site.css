@@ -1,0 +1,87 @@
+body {
+    padding-top: 70px;
+}
+
+.footer {
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after  { content: /*"\e113"*/"\e151"; }
+a.desc:after { content: /*"\e114"*/"\e152"; }
+
+.sort-numerical a.asc:after { content: "\e153"; }
+.sort-numerical a.desc:after { content: "\e154"; }
+
+.sort-ordinal a.asc:after { content: "\e155"; }
+.sort-ordinal a.desc:after { content: "\e156"; }
+
+li.list-group-item a{
+    color: #555555;
+    text-decoration: none;
+}
+
+li.list-group-item:hover, li.list-group-item:focus{
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+li.list-group-item.active, li.list-group-item.active:hover, li.list-group-item.active:focus {
+    z-index: 2;
+    color: #ffffff;
+    background-color: #74AAEE;
+    border-color: #428bca;
+}
+li.list-group-item.active a, li.list-group-item.active:hover a, li.list-group-item.active:focus a {
+    color: #ffffff;
+}
+
+.breadcrumb,.alert-success {
+    margin: 10px;
+}
+
+nav.navbar {
+    background: #001968;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #FF2900;
+}
+
+.container .site{
+    padding: 10px;
+}
+
+.list-item{
+    margin-bottom: 20px;
+}
+
+.active .badge{
+    background-color: #0070FF;
+}
+.alert{
+    margin: 10px;
+}
