@@ -37,11 +37,4 @@ return [
         '<module:\w+>/<controller:\w+>/<action:\w+>' => '<module>/<controller>/<action>',
         '<module:\w+>/<controller:\w+>/<action:\w+>/<id:\d+>' => '<module>/<controller>/<action>',
     ],
-    'frontendUrl' => (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . 'frontend.ebizu.com/',
-    'backendUrl' => (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . 'backend.ebizu.com/',
-    'imageUrl' => 'http://s3-ap-southeast-1.amazonaws.com/ikargo',
-    's3key' => 'AKIAJ2UQQOLWLMFWSGDQ',
-    's3secret' => '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',
-    's3region' => 'ap-southeast-1',
-    's3bucket' => 'ikargo'
 ];
